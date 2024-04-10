@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyện tập với cấu trúc if...else...if</title>
+</head>
+<body>
+<script>
+    let ad = prompt("Nhập tên của bạn :");
+    if (ad == 'Admin'){
+        let password = prompt("Mời bạn nhập password");
+        if (password == 'TheMaster'){
+            alert("Welcome")
+        }else if (password == 'null'){
+            alert('Canceled')
+        }else{
+            alert('Wrong password')
+        }
+    }else{
+        alert('Nhập lại ')
+    }
+</script>
+</body>
+</html>
